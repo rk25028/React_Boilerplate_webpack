@@ -1,0 +1,24 @@
+/*
+ * Error Message Configuration
+ *
+*/
+
+.has-error {
+    border: 1px solid $error;
+    .msg{   
+        position: absolute;
+        top:0;
+        left:0;
+        &-error{
+            color:$error;
+        }
+        &-success {
+            @extend .msg;
+            color: $success;
+        }
+        &-warning {
+            @extend .msg; 
+            color: $warning;
+        }
+    }
+}

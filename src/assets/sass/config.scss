@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+/**
+*  color instance
+*/
+
+$error: #dc3545;
+$white: #fff;
+$gray: #6c757d;
+$black: #444;
+$primary: #fe5e4a;
+$secondary: #eaedf2;
+$success: #009b72;
+$light: #aaa;
+$base: #2c3038;
+$primary-2: #fc128d;
+$warmGrey: #666666;
+$grey: #555a65;
+$lightgrey: #aaa;
+
+$spacer-height: 20vw;
+$section1-bg-color: #ffffff;
+$section2-bg-color: #ffd2b0;
+$section3-bg-color: #fff;
+$section4-bg-color: #fff;
+$section5-bg-color: #333333;
+
+// Inputs
+$input-border: lighten($black, 50%);
+$input-border-focus: lighten($primary, 15%);
+$input-color-placeholder: lighten($black, 30%);
+
+// fonts family instance
+$robotoFont: 'Source Sans Pro', sans-serif;

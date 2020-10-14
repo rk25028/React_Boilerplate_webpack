@@ -1,3 +1,29 @@
+@import "config";
+@import "methods";
+
+*,
+*:focus,
+*:active {
+  text-decoration: none;
+  outline: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: $black;
+  font-family: $robotoFont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  background: #eee;
+  font-size: 1rem;
+  position: static;
+}
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +62,4 @@
     transform: rotate(360deg);
   }
 }
+
